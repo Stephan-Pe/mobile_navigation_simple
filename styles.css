@@ -1,0 +1,27 @@
+body, html{
+           height: 100%;
+           width: 100vw;
+           background: linear-gradient(45deg, #80b3ff, #0066ff); 
+       }
+       #hamburger {
+           font-size:3rem;
+           font-weight:bold;
+           cursor:pointer;
+       }
+       #offcanvas {
+           position:fixed;
+           width:375px;
+           height:100vh;
+           left:-375px;
+           background-color: #0052cc;
+           transition: left 1s ease-in-out;
+       }
+	   li a {
+		   color: #fff;
+		   font-family: sans-serif;
+		   font-weight: 500;
+		   font-size: 30px;
+	   }
+       .open {
+           left:0!important;
+       }
