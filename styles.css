@@ -1,39 +1,46 @@
-body, html{
-           height: 100%;
-           width: 100vw;
-           background: linear-gradient(45deg, #80b3ff, #0066ff); 
-       }
-       #hamburger {
-           font-size:3rem;
-           font-weight:bold;
-           cursor:pointer;
-       }
-       #offcanvas {
-           position:fixed;
-           width:375px;
-           height:100vh;
-           left:-375px;
-           background-color: #0052cc;
-           transition: left 1s ease-in-out;
-           text-align: center;
-       }
-       #cancel {
-        color: #111;
-        font-size:2rem;
-        font-weight:bold;
-        cursor:pointer;
-    }
-    li {
-        list-style: none;
-        line-height: 40px;
-    }
-    
-    li a {
-        color: #fff;
-        font-family: sans-serif;
-        font-weight: 500;
-        font-size: 30px;
-    }
-    .open {
-        left:0!important;
-    }
+* {
+    margin: 0 auto;
+}
+html {
+height: 100vh;
+width: 100vw;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #80b3ff, #0066ff); 
+}
+#hamburger {
+    font-size:3rem;
+    font-weight:bold;
+    cursor:pointer;
+}
+#offcanvas {
+    position:fixed;
+    width:375px;
+    height:100vh;
+    left:-375px;
+    background-color: #0052cc;
+    transition: left 1s ease-in-out;
+}
+#cancel {
+padding-left: 30px;
+color: #fff;
+font-size:3rem;
+font-weight:bold;
+cursor:pointer;
+}
+li {
+    list-style: none;
+    line-height: 40px;
+}
+
+li a {
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.open {
+    left:0!important;
+}
