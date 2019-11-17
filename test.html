@@ -8,22 +8,21 @@
    <link rel="stylesheet" type="text/css" href="styles.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-<body>
-   <i class="material-icons" id="hamburger">menu</i>
-   <div id="offcanvas">
-       <ul class="nav">
-           <li><a href="">Home</a></li>
-           <li><a href="">About</a></li>
-           <li><a href="">Contact</a></li>
-           <li><a href="">Map</a></li>
-        </ul>
+<body>   
+<i class="material-icons" id="hamburger">menu</i>
+    <div id="offcanvas">
+    <i class="material-icons" id="cancel">close</i>
+        <nav>
+            <ul>
+                <li><a class="navigation" href="">Home</a></li>
+                <li><a class="navigation" href="">link</a></li>
+                <li><a class="navigation" href="">link</a></li>
+                <li><a class="navigation" href="">link</a></li>
+                <li><a class="navigation" href="">link</a></li>
+                <li><a class="navigation" href="">link</a></li>
+            </ul>
+        </nav>
     </div>
-   <script>
-       var hamburger = document.querySelector('#hamburger');
-       var offcanvas = document.querySelector('#offcanvas');
-       hamburger.addEventListener('click', function (e) {
-           offcanvas.classList.toggle('open');
-       });
-   </script>
+<script src="main.js"></script>
 </body>
 </html>
